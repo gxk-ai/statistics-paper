@@ -1,22 +1,22 @@
-# Workflows
+# 工作流
 
-Workflows describe how to run multi-step thesis tasks. A workflow is not a Skill; it is the procedure that coordinates Skills, files, and outputs.
+工作流描述如何运行多步骤论文任务。工作流不是 Skill，而是协调 Skill、文件和输出的流程。
 
-## Standard Workflow Files
+## 标准工作流文件
 
-- `thesis-init.md` - initialize topic, requirements, schedule, and recovery state.
-- `literature-review.md` - search, screen, summarize, and cite literature.
-- `research-design.md` - define questions, hypotheses, variables, and methodology.
-- `data-analysis.md` - prepare data, run algorithm experiments, and record results.
-- `writing.md` - turn findings into chapter drafts.
-- `revision.md` - respond to supervisor feedback and revise safely.
-- `final-check.md` - check traceability, formatting, references, and export.
+- `thesis-init.md`：初始化选题、要求、计划和恢复状态。
+- `literature-review.md`：检索、筛选、总结和引用文献。
+- `research-design.md`：定义问题、假设、变量和方法。
+- `data-analysis.md`：准备数据、运行算法实验并记录结果。
+- `writing.md`：把发现转化为章节草稿。
+- `revision.md`：回应导师反馈并安全修订。
+- `final-check.md`：检查可追溯性、格式、参考文献和导出。
 
-## Rule
+## 规则
 
-Every workflow should say:
+每个工作流都应说明：
 
-- Which files to read first.
-- Which Skill to use.
-- What output files to update.
-- How to update `project-state.yml` and `thesis-map.yml` before stopping.
+- 先读哪些文件。
+- 使用哪个 Skill。
+- 更新哪些输出文件。
+- 停止前如何更新 `project-state.yml` 和 `thesis-map.yml`。

@@ -1,3 +1,3 @@
-# Reports
+# 报告
 
-Store generated reports, exports, review notes, and final submission files here.
+这里存放生成的报告、导出文件、审阅笔记和最终提交文件。

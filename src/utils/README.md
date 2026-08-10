@@ -1,3 +1,3 @@
-# Utilities
+# 工具函数
 
-Shared helpers for paths, logging, configuration, random seeds, and environment checks.
+路径、日志、配置、随机种子和环境检查等共享辅助代码。

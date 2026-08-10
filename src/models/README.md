@@ -1,3 +1,3 @@
-# Model Code
+# 模型代码
 
-Reusable algorithm implementations, baselines, model definitions, and wrappers.
+可复用的算法实现、基线、模型定义和封装代码。

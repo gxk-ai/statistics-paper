@@ -1,3 +1,3 @@
-# Training Code
+# 训练代码
 
-Reusable training loops, tuning routines, cross-validation, and run orchestration helpers.
+可复用的训练循环、调参流程、交叉验证和运行编排辅助代码。

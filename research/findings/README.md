@@ -1,17 +1,17 @@
-# Findings
+# 研究发现
 
-Use this directory for evidence-backed findings that may enter the thesis.
+这里记录有证据支撑、可能进入论文的发现。
 
-Suggested filename:
+建议文件名：
 
 ```text
 F-001-short-title.md
 ```
 
-Each finding should include:
+每条发现应包含：
 
-- Finding statement
-- Evidence source
-- Related experiment or literature
-- Limitations
-- Thesis location
+- 发现陈述
+- 证据来源
+- 相关实验或文献
+- 局限性
+- 论文位置

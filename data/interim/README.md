@@ -1,3 +1,3 @@
-# Interim Data
+# 中间数据
 
-Store intermediate data generated during cleaning or feature construction.
+这里存放清洗或特征构造过程中生成的中间数据。

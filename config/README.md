@@ -1,13 +1,13 @@
-# Config
+# 配置
 
-`config/` stores project-level configuration that is shared across scripts, experiments, and exports.
+`config/` 存放在脚本、实验和导出流程之间共享的项目级配置。
 
-Examples:
+示例：
 
-- path settings
-- thesis formatting profile
-- random seed defaults
-- data split policy
-- model tracking conventions
+- 路径设置
+- 论文格式配置
+- 默认随机种子
+- 数据切分策略
+- 模型跟踪约定
 
-Experiment-specific settings belong in `experiments/configs/`.
+实验专用设置应放在 `experiments/configs/`。

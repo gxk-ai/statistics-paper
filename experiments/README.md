@@ -1,28 +1,28 @@
-# Experiments
+# 实验
 
-`experiments/` records how analysis and algorithm runs were executed.
+`experiments/` 记录分析和算法运行是如何执行的。
 
-## Suggested Layout
+## 建议结构
 
 ```text
 experiments/
-├── notebooks/
-├── configs/
-├── runs/
-└── README.md
+|-- notebooks/
+|-- configs/
+|-- runs/
+`-- README.md
 ```
 
-## Run Rule
+## 运行规则
 
-Each substantial run should get a stable run directory:
+每个实质性实验都应有一个稳定的运行目录：
 
 ```text
 experiments/runs/EXP-001/
-├── config.yaml
-├── run.log
-├── metrics.json
-├── environment.txt
-└── outputs/
+|-- config.yaml
+|-- run.log
+|-- metrics.json
+|-- environment.txt
+`-- outputs/
 ```
 
-Link important runs back into `thesis-map.yml`.
+重要运行结果应链接回 `thesis-map.yml`。

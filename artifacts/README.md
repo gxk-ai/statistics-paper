@@ -1,17 +1,17 @@
-# Artifacts
+# 产物
 
-`artifacts/` stores generated outputs that may be used in the thesis or defense.
+`artifacts/` 存放可能用于论文或答辩的生成结果。
 
-## Suggested Layout
+## 建议结构
 
 ```text
 artifacts/
-├── figures/
-├── tables/
-├── reports/
-└── models/
+|-- figures/
+|-- tables/
+|-- reports/
+`-- models/
 ```
 
-## Rule
+## 规则
 
-Artifacts should be reproducible from `src/`, `experiments/`, `data/`, and `references/`. Important artifacts should be indexed in `thesis-map.yml`.
+产物应能从 `src/`、`experiments/`、`data/` 和 `references/` 复现。重要产物应登记到 `thesis-map.yml`。

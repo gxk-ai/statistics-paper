@@ -1,3 +1,3 @@
-# Literature Notes
+# 文献笔记
 
-Store paper notes, annotated summaries, and evidence extraction files here.
+这里存放论文笔记、带注释的摘要和证据提取文件。

@@ -1,3 +1,3 @@
-# Data Code
+# 数据代码
 
-Reusable data loading, validation, and cleaning code.
+可复用的数据加载、校验和清洗代码。

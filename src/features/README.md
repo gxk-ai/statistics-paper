@@ -1,3 +1,3 @@
-# Feature Code
+# 特征代码
 
-Reusable feature engineering, variable construction, transformations, and encoders.
+可复用的特征工程、变量构造、转换和编码器代码。

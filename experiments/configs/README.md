@@ -1,8 +1,8 @@
-# Experiment Configs
+# 实验配置
 
-Store experiment-specific configuration files here.
+这里存放实验专用配置文件。
 
-Suggested naming:
+建议命名：
 
 ```text
 EXP-001-baseline.yaml

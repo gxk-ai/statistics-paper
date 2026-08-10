@@ -1,3 +1,3 @@
-# Visualization Code
+# 可视化代码
 
-Reusable code for figures, tables, plots, and thesis-ready visual outputs.
+用于图、表、绘图和论文级可视化产物的可复用代码。

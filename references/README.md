@@ -1,17 +1,17 @@
-# References
+# 文献资料
 
-`references/` stores literature and citation assets.
+`references/` 存放文献和引用相关资产。
 
-## Suggested Layout
+## 建议结构
 
 ```text
 references/
-├── literature-matrix.xlsx
-├── search-log.md
-├── bib/
-└── notes/
+|-- literature-matrix.xlsx
+|-- search-log.md
+|-- bib/
+`-- notes/
 ```
 
-## Rule
+## 规则
 
-Use `search-log.md` to record how literature was found. Use the literature matrix to track each source's question, method, data, findings, limitations, and relevance to the thesis.
+使用 `search-log.md` 记录文献是如何检索到的。使用文献矩阵跟踪每个来源的研究问题、方法、数据、发现、局限性以及与论文的相关性。

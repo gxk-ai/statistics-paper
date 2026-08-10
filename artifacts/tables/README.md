@@ -1,3 +1,3 @@
-# Tables
+# 表格
 
-Store thesis-ready tables here. Link each important table in `thesis-map.yml`.
+这里存放可直接用于论文的表格。每个重要表格都应在 `thesis-map.yml` 中建立链接。

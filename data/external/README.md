@@ -1,3 +1,3 @@
-# External Data
+# 外部数据
 
-Store third-party or supplemental datasets here, with source and license notes in `data/metadata/`.
+这里存放第三方或补充数据集，并在 `data/metadata/` 中记录来源和许可证说明。

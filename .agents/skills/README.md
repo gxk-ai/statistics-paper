@@ -1,18 +1,18 @@
-# Project Skills
+# 项目 Skills
 
-This directory is the only active Skill entry point for the thesis project.
+这个目录是论文项目唯一 active Skill 入口。
 
-## Current Skill Groups
+## 当前 Skill 分组
 
-- Research orchestration: `academic-research-suite`, `scientific-brainstorming`, `scientific-critical-thinking`
-- Literature and citation work: `literature-review`, `citation-management`
-- Writing and review: `scientific-writing`, `stat-writing`, `venue-templates`
-- Visual output: `scientific-visualization`, `scientific-schematics`, `scientific-slides`
-- Format conversion: `docx-to-md`, `md-to-docx`, `latex-typesetting`
-- Skill maintenance: `skill-creator`
+- 研究编排：`academic-research-suite`、`scientific-brainstorming`、`scientific-critical-thinking`
+- 文献与引用：`literature-review`、`citation-management`
+- 写作与审阅：`scientific-writing`、`stat-writing`、`venue-templates`
+- 视觉产出：`scientific-visualization`、`scientific-schematics`、`scientific-slides`
+- 格式转换：`docx-to-md`、`md-to-docx`、`latex-typesetting`
+- Skill 维护：`skill-creator`
 
-## Boundary
+## 边界
 
-Skills contain reusable instructions, scripts, templates, and references for agents. They should not contain project-specific thesis drafts, datasets, experiment runs, or final artifacts.
+Skills 包含可复用说明、脚本、模板和参考资料，供 Agent 使用。它们不应包含项目专用论文草稿、数据集、实验运行或最终产物。
 
-Use `route-map.yml` to choose a Skill for a task instead of guessing from directory names alone.
+使用 `route-map.yml` 为任务选择 Skill，不要只根据目录名猜测。

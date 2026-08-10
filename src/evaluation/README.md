@@ -1,3 +1,3 @@
-# Evaluation Code
+# 评估代码
 
-Reusable metrics, diagnostics, statistical tests, robustness checks, and error analysis.
+可复用的指标、诊断、统计检验、稳健性检查和误差分析代码。

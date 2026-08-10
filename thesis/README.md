@@ -1,20 +1,20 @@
-# Thesis Draft
+# 论文草稿
 
-`thesis/` stores the thesis manuscript itself.
+`thesis/` 存放论文本身的正文稿。
 
-## Suggested Layout
+## 建议结构
 
 ```text
 thesis/
-├── abstract.md
-├── chapter-1.md
-├── chapter-2.md
-├── chapter-3.md
-├── chapter-4.md
-├── chapter-5.md
-└── references.md
+|-- abstract.md
+|-- chapter-1.md
+|-- chapter-2.md
+|-- chapter-3.md
+|-- chapter-4.md
+|-- chapter-5.md
+`-- references.md
 ```
 
-## Rule
+## 规则
 
-Only put text here when it is intended to become part of the thesis. Keep exploratory notes in `research/` and source evidence in `references/`, `data/`, `experiments/`, or `artifacts/`.
+只有准备成为论文内容的文字才放在这里。探索性笔记放在 `research/`，源证据放在 `references/`、`data/`、`experiments/` 或 `artifacts/`。

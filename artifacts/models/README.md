@@ -1,3 +1,3 @@
-# Models
+# 模型产物
 
-Store model artifacts, checkpoints, serialized outputs, or model cards here when they are needed for thesis evidence.
+当模型产物、检查点、序列化输出或模型卡需要作为论文证据时，存放在这里。

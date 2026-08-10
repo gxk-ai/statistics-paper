@@ -1,3 +1,3 @@
-# Processed Data
+# 处理后数据
 
-Store cleaned, analysis-ready data here.
+这里存放清洗后、可用于分析的数据。

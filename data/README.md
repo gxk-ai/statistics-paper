@@ -1,20 +1,20 @@
-# Data
+# 数据
 
-`data/` stores datasets and data documentation.
+`data/` 存放数据集和数据说明文档。
 
-## Suggested Layout
+## 建议结构
 
 ```text
 data/
-├── raw/
-├── interim/
-├── processed/
-├── external/
-└── metadata/
+|-- raw/
+|-- interim/
+|-- processed/
+|-- external/
+`-- metadata/
 ```
 
-## Rule
+## 规则
 
-- Never modify files in `data/raw/` directly.
-- Store cleaned or feature-ready data in `data/processed/`.
-- Document fields, source, license, refresh date, and known quality issues in `data/metadata/`.
+- 不要直接修改 `data/raw/` 中的文件。
+- 清洗后或可用于特征构造的数据放在 `data/processed/`。
+- 字段、来源、许可证、刷新日期和已知质量问题记录在 `data/metadata/`。

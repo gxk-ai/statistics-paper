@@ -1,3 +1,3 @@
-# Bib Files
+# Bib 文件
 
-Store BibTeX, CSL JSON, or exported reference files here.
+这里存放 BibTeX、CSL JSON 或导出的参考文献文件。

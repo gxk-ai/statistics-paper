@@ -1,3 +1,3 @@
-# Raw Data
+# 原始数据
 
-Store original data here. Do not modify raw files directly.
+这里存放原始数据。不要直接修改原始文件。

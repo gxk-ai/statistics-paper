@@ -1,3 +1,3 @@
-# Data Metadata
+# 数据元信息
 
-Document data sources, field dictionaries, licenses, refresh dates, quality issues, and processing assumptions here.
+这里记录数据来源、字段字典、许可证、刷新日期、质量问题和处理假设。

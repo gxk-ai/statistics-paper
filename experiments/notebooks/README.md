@@ -1,3 +1,3 @@
-# Notebooks
+# Notebook
 
-Use notebooks for exploration, diagnostics, and result inspection. Promote reusable code into `src/`.
+Notebook 用于探索、诊断和结果检查。可复用代码应提升到 `src/`。

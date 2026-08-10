@@ -1,3 +1,3 @@
-# Figures
+# 图件
 
-Store thesis-ready figures here. Link each important figure in `thesis-map.yml`.
+这里存放可直接用于论文的图。每个重要图件都应在 `thesis-map.yml` 中建立链接。

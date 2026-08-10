@@ -1,18 +1,18 @@
-# Decision Records
+# 决策记录
 
-Use this directory for decisions that affect thesis direction.
+这里记录会影响论文方向的决策。
 
-Suggested filename:
+建议文件名：
 
 ```text
 DR-001-short-title.md
 ```
 
-Each decision should include:
+每条决策应包含：
 
-- Context
-- Options considered
-- Decision
-- Reason
-- Consequences
-- Related files
+- 背景
+- 已考虑的选项
+- 决定
+- 理由
+- 后果
+- 相关文件

@@ -1,15 +1,15 @@
-# Session Logs
+# 工作日志
 
-Create one short file per meaningful work session:
+每次有意义的工作会话创建一个简短文件：
 
 ```text
 research/logs/YYYY-MM-DD.md
 ```
 
-Each log should include:
+每条日志应包含：
 
-- What changed
-- Why it changed
-- Files touched
-- Open questions
-- Next action
+- 改了什么
+- 为什么改
+- 涉及哪些文件
+- 未解决问题
+- 下一步行动
