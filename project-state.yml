@@ -1,0 +1,60 @@
+project:
+  name: "27lunwen"
+  title: "TBD"
+  degree: "TBD"
+  language: "zh-CN"
+  owner: "TBD"
+  supervisor: "TBD"
+
+status:
+  current_stage: "init"
+  active_workflow: "workflows/thesis-init.md"
+  last_active: "2026-08-10"
+  current_focus: "Build a durable thesis workspace that preserves context across long gaps."
+
+thesis_context:
+  research_area: "TBD"
+  topic_scope: "TBD"
+  target_format: "TBD"
+  required_style: "TBD"
+  deadline: "TBD"
+
+next_actions:
+  - id: "TODO-001"
+    task: "Fill in thesis topic, degree requirements, deadline, and supervisor constraints."
+    status: "open"
+    related_files:
+      - "project-state.yml"
+      - "research/questions.md"
+    suggested_skill: "scientific-brainstorming"
+
+  - id: "TODO-002"
+    task: "Draft initial research questions and candidate hypotheses."
+    status: "open"
+    related_files:
+      - "research/questions.md"
+      - "research/hypotheses.md"
+    suggested_skill: "scientific-brainstorming"
+
+  - id: "TODO-003"
+    task: "Start the literature search log and literature matrix."
+    status: "open"
+    related_files:
+      - "references/search-log.md"
+      - "references/literature-matrix.xlsx"
+    suggested_skill: "literature-review"
+
+open_risks:
+  - id: "RISK-001"
+    issue: "Research question, available data, and modeling strategy are not yet aligned."
+    status: "open"
+    related_files:
+      - "research/questions.md"
+      - "research/methodology.md"
+      - "data/metadata/"
+
+working_rules:
+  state_file: "Update project-state.yml before ending a substantial session."
+  evidence_rule: "Do not move claims into thesis/ unless they point to evidence in thesis-map.yml."
+  reproducibility_rule: "Reusable algorithm code goes in src/; concrete runs and logs go in experiments/runs/."
+  skill_rule: "Only .agents/skills/<skill-name>/SKILL.md is treated as an active project Skill."

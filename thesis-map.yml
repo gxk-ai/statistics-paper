@@ -1,0 +1,53 @@
+chapters:
+  ch1:
+    title: "绪论"
+    status: "not_started"
+    file: "thesis/chapter-1.md"
+    claims: []
+    evidence: []
+
+  ch2:
+    title: "文献综述"
+    status: "not_started"
+    file: "thesis/chapter-2.md"
+    claims: []
+    evidence: []
+
+  ch3:
+    title: "研究设计"
+    status: "not_started"
+    file: "thesis/chapter-3.md"
+    claims: []
+    evidence: []
+
+  ch4:
+    title: "实证分析或算法实验"
+    status: "not_started"
+    file: "thesis/chapter-4.md"
+    claims: []
+    evidence: []
+
+  ch5:
+    title: "结论与展望"
+    status: "not_started"
+    file: "thesis/chapter-5.md"
+    claims: []
+    evidence: []
+
+claims: {}
+
+findings: {}
+
+figures: {}
+
+tables: {}
+
+experiments: {}
+
+source_indexes:
+  literature: "references/literature-matrix.xlsx"
+  search_log: "references/search-log.md"
+  decisions: "research/decisions/"
+  findings: "research/findings/"
+  experiment_runs: "experiments/runs/"
+  artifacts: "artifacts/"

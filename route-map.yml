@@ -1,0 +1,134 @@
+routes:
+  project_recovery:
+    intent:
+      - "继续论文"
+      - "恢复上下文"
+      - "我之前做到哪了"
+      - "next step"
+    read_first:
+      - "START_HERE.md"
+      - "project-state.yml"
+      - "thesis-map.yml"
+    workflow: "workflows/README.md"
+
+  research_planning:
+    intent:
+      - "研究问题"
+      - "研究假设"
+      - "变量定义"
+      - "研究设计"
+      - "理论机制"
+    primary_skill: "scientific-brainstorming"
+    secondary_skill: "scientific-critical-thinking"
+    workflow: "workflows/research-design.md"
+    main_files:
+      - "research/questions.md"
+      - "research/hypotheses.md"
+      - "research/variables.md"
+      - "research/methodology.md"
+
+  literature_review:
+    intent:
+      - "文献综述"
+      - "找文献"
+      - "研究现状"
+      - "系统综述"
+      - "literature review"
+    primary_skill: "literature-review"
+    secondary_skill: "citation-management"
+    workflow: "workflows/literature-review.md"
+    main_files:
+      - "references/search-log.md"
+      - "references/literature-matrix.xlsx"
+      - "references/bib/"
+      - "references/notes/"
+
+  citation_management:
+    intent:
+      - "参考文献"
+      - "BibTeX"
+      - "引用格式"
+      - "GB/T 7714"
+      - "citation"
+    primary_skill: "citation-management"
+    main_files:
+      - "references/bib/"
+      - "references/literature-matrix.xlsx"
+
+  algorithm_development:
+    intent:
+      - "算法代码"
+      - "模型代码"
+      - "训练"
+      - "评估"
+      - "特征工程"
+      - "跑实验"
+    workflow: "workflows/data-analysis.md"
+    main_files:
+      - "src/"
+      - "experiments/configs/"
+      - "experiments/runs/"
+      - "data/"
+      - "artifacts/models/"
+
+  statistical_writing:
+    intent:
+      - "回归结果"
+      - "模型结果解释"
+      - "稳健性检验"
+      - "显著性"
+      - "统计写作"
+    primary_skill: "stat-writing"
+    secondary_skill: "scientific-writing"
+    workflow: "workflows/writing.md"
+    main_files:
+      - "experiments/runs/"
+      - "artifacts/tables/"
+      - "thesis/"
+
+  visualization:
+    intent:
+      - "画图"
+      - "统计图"
+      - "机制图"
+      - "论文图表"
+      - "可视化"
+    primary_skill: "scientific-visualization"
+    secondary_skill: "scientific-schematics"
+    main_files:
+      - "src/visualization/"
+      - "artifacts/figures/"
+
+  thesis_writing:
+    intent:
+      - "写论文"
+      - "章节"
+      - "摘要"
+      - "结论"
+      - "润色"
+      - "改写"
+    primary_skill: "scientific-writing"
+    secondary_skill: "stat-writing"
+    workflow: "workflows/writing.md"
+    main_files:
+      - "thesis/"
+      - "thesis-map.yml"
+      - "research/findings/"
+
+  formatting_and_export:
+    intent:
+      - "转docx"
+      - "转md"
+      - "LaTeX"
+      - "三线表"
+      - "排版"
+      - "导出"
+    skill_chain:
+      - "latex-typesetting"
+      - "md-to-docx"
+      - "docx-to-md"
+    workflow: "workflows/final-check.md"
+    main_files:
+      - "thesis/"
+      - "templates/"
+      - "artifacts/reports/"
