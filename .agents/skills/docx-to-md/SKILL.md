@@ -34,20 +34,23 @@ allowed-tools: Read, Write, Edit, Bash
        ▼
 【Step 2】执行转换脚本
 ├── 运行 convert.py
-├── pandoc DOCX → Markdown（OMML 公式自动转 LaTeX）
+├── pandoc DOCX → GFM Markdown（OMML 公式自动转 LaTeX）
 ├── 最小后处理（图片路径修复、清理标记）
+├── WPS/MathType OLE 公式预览图 WMF → PNG
+├── formula-map.tsv 中已校正公式图片 → LaTeX
 └── 输出 Markdown + media 目录
        │
        ▼
 【Step 3】AI 后处理
 ├── 三线表 → LaTeX booktabs 表格
-├── 公式 → LaTeX 正确格式
+├── 公式图片 → LaTeX 正确格式，并写入 formula-map.tsv
+├── 检查是否仍有 WMF 引用
 └── 具体规则见下方"目标格式"
        │
        ▼
 【Step 4】验证输出
 ├── 检查 Markdown 文件是否生成
-├── 检查图片是否提取到 media/
+├── 检查图片是否提取到 media/，且 Markdown 中不再引用 WMF
 └── 检查公式/表格是否正确转换
        │
        ▼
@@ -82,6 +85,28 @@ output_dir/
     ├── image2.png
     └── ...
 ```
+
+### 公式对象处理
+
+- Word 原生 OMML 公式：由 pandoc 尽量转为 LaTeX。
+- 纯文本 LaTeX 公式：脚本会在转换前保护占位符，转换后原样还原。
+- WPS/金山公式、部分 MathType 公式：在 DOCX 内通常是 OLE 对象（如 `Equation.KSEE3`），pandoc 只能读取 WMF 预览图，不能可靠直接还原 LaTeX。脚本会先将 WMF 转为 PNG 并修正 Markdown 引用；如果输出目录存在 `formula-map.tsv`，再将其中登记的公式图片替换为 LaTeX。
+
+`formula-map.tsv` 格式：
+
+```text
+# image file<TAB>LaTeX body
+image3.png	MSE=\frac{1}{n}\sum_{i=1}^{n}\omega_i(x_i-\hat{x}_i)^2
+```
+
+替换规则：
+- 独占一行的公式图片替换为 `$$...$$` 行间公式。
+- 夹在正文中的公式图片替换为 `$...$` 行内公式。
+- 普通图表图片不要写入 `formula-map.tsv`。
+
+### 表格处理策略
+
+脚本使用 `gfm+tex_math_dollars` 输出，优先让 pandoc 生成 GFM 表格。复杂 Word 表格、合并单元格表格不再用正则硬切列，避免列错位。需要投稿/最终排版时，再由 AI 或人工将核心表格重写为 LaTeX booktabs 表格。
 
 ### AI 后处理目标格式
 

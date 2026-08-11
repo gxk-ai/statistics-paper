@@ -1,31 +1,31 @@
-# Research Design Workflow
+# 研究设计工作流
 
-Use this workflow for research questions, hypotheses, variables, methodology, and validity checks.
+用于研究问题、假设、变量、方法和效度检查。
 
 ## Skills
 
-- Primary: `scientific-brainstorming`
-- Secondary: `scientific-critical-thinking`
+- 主要：`scientific-brainstorming`
+- 辅助：`scientific-critical-thinking`
 
-## Read First
+## 先读
 
 - `project-state.yml`
 - `research/questions.md`
 - `research/hypotheses.md`
 - `research/variables.md`
 - `research/methodology.md`
-- `references/literature-matrix.xlsx` if it exists
+- 如果存在，读取 `references/literature-matrix.xlsx`
 
-## Steps
+## 步骤
 
-1. Clarify the research question and scope.
-2. Convert the question into testable hypotheses.
-3. Define variables, measurements, controls, and expected data sources.
-4. Check construct validity, confounders, and rival explanations.
-5. Record decisions in `research/decisions/`.
-6. Update `thesis-map.yml`.
+1. 澄清研究问题和范围。
+2. 将研究问题转化为可检验假设。
+3. 定义变量、测量方式、控制变量和预期数据来源。
+4. 检查构念效度、混杂因素和竞争性解释。
+5. 将决策记录到 `research/decisions/`。
+6. 更新 `thesis-map.yml`。
 
-## Outputs
+## 输出
 
 - `research/questions.md`
 - `research/hypotheses.md`

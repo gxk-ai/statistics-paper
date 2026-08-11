@@ -1,32 +1,32 @@
-# Revision Workflow
+# 修订工作流
 
-Use this workflow when revising after supervisor, peer, or self-review feedback.
+用于根据导师、同伴或自我审阅反馈进行修订。
 
 ## Skills
 
-- Primary: `scientific-writing`
-- Secondary: `scientific-critical-thinking`
-- Optional: `stat-writing`
+- 主要：`scientific-writing`
+- 辅助：`scientific-critical-thinking`
+- 可选：`stat-writing`
 
-## Read First
+## 先读
 
 - `project-state.yml`
 - `thesis-map.yml`
-- latest files in `thesis/`
-- relevant feedback files in `artifacts/reports/`
+- `thesis/` 中的最新文件
+- `artifacts/reports/` 中的相关反馈文件
 
-## Steps
+## 步骤
 
-1. Convert feedback into actionable items.
-2. Classify each item as content, method, evidence, structure, style, or formatting.
-3. Update source evidence before changing thesis claims.
-4. Revise thesis text.
-5. Record major decisions in `research/decisions/`.
-6. Update `project-state.yml`.
+1. 将反馈转化为可执行事项。
+2. 将每项反馈分类为内容、方法、证据、结构、风格或格式问题。
+3. 修改论文论断前，先更新来源证据。
+4. 修订论文文本。
+5. 将重大决策记录到 `research/decisions/`。
+6. 更新 `project-state.yml`。
 
-## Outputs
+## 输出
 
-- revised files in `thesis/`
+- `thesis/` 中的修订文件
 - `research/decisions/`
 - `artifacts/reports/`
 - `project-state.yml`

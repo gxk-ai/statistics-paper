@@ -1,14 +1,14 @@
-# Writing Workflow
+# 写作工作流
 
-Use this workflow for drafting, revising, and polishing thesis chapters.
+用于论文各章节的起草、修订和润色。
 
 ## Skills
 
-- Primary: `scientific-writing`
-- Secondary: `stat-writing`
-- Optional: `venue-templates`
+- 主要：`scientific-writing`
+- 辅助：`stat-writing`
+- 可选：`venue-templates`
 
-## Read First
+## 先读
 
 - `project-state.yml`
 - `thesis-map.yml`
@@ -17,15 +17,15 @@ Use this workflow for drafting, revising, and polishing thesis chapters.
 - `artifacts/tables/`
 - `artifacts/figures/`
 
-## Steps
+## 步骤
 
-1. Choose the target chapter or section.
-2. Check which claims and evidence are already mapped in `thesis-map.yml`.
-3. Draft in `thesis/`.
-4. Keep unsupported ideas in `research/` until evidence is available.
-5. Update claim, figure, and table links in `thesis-map.yml`.
+1. 选择目标章节或小节。
+2. 检查哪些论断和证据已经映射到 `thesis-map.yml`。
+3. 在 `thesis/` 中起草。
+4. 没有证据支撑的想法先保留在 `research/`，直到证据可用。
+5. 更新 `thesis-map.yml` 中的论断、图件和表格链接。
 
-## Outputs
+## 输出
 
 - `thesis/`
 - `thesis-map.yml`

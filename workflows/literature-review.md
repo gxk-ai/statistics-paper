@@ -1,29 +1,29 @@
-# Literature Review Workflow
+# 文献综述工作流
 
-Use this workflow for literature search, screening, synthesis, and citation tracking.
+用于文献检索、筛选、综合和引用跟踪。
 
 ## Skills
 
-- Primary: `literature-review`
-- Secondary: `citation-management`
-- Optional: `academic-research-suite`
+- 主要：`literature-review`
+- 辅助：`citation-management`
+- 可选：`academic-research-suite`
 
-## Read First
+## 先读
 
 - `project-state.yml`
 - `research/questions.md`
 - `references/search-log.md`
-- `references/literature-matrix.xlsx` if it exists
+- 如果存在，读取 `references/literature-matrix.xlsx`
 
-## Steps
+## 步骤
 
-1. Define search questions and inclusion criteria.
-2. Record databases, keywords, dates, and filters in `references/search-log.md`.
-3. Add screened papers to the literature matrix.
-4. Extract reusable notes into `references/notes/`.
-5. Add claim or evidence IDs to `thesis-map.yml`.
+1. 定义检索问题和纳入标准。
+2. 在 `references/search-log.md` 中记录数据库、关键词、日期和筛选条件。
+3. 将筛选后的论文加入文献矩阵。
+4. 将可复用笔记整理到 `references/notes/`。
+5. 将论断或证据 ID 添加到 `thesis-map.yml`。
 
-## Outputs
+## 输出
 
 - `references/search-log.md`
 - `references/literature-matrix.xlsx`

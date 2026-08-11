@@ -1,6 +1,6 @@
-# Final Check Workflow
+# 最终检查工作流
 
-Use this workflow before exporting or submitting thesis deliverables.
+用于导出或提交论文交付物前的最终检查。
 
 ## Skills
 
@@ -10,7 +10,7 @@ Use this workflow before exporting or submitting thesis deliverables.
 - `citation-management`
 - `venue-templates`
 
-## Read First
+## 先读
 
 - `project-state.yml`
 - `thesis-map.yml`
@@ -18,16 +18,16 @@ Use this workflow before exporting or submitting thesis deliverables.
 - `references/bib/`
 - `artifacts/`
 
-## Checks
+## 检查
 
-1. Every major claim has evidence in `thesis-map.yml`.
-2. Every figure and table has a source artifact.
-3. Citations are complete and formatted.
-4. Chapter numbering, captions, formulas, and three-line tables are consistent.
-5. Exported files are saved in `artifacts/reports/`.
+1. 每个主要论断都能在 `thesis-map.yml` 中追溯到证据。
+2. 每个图和表都有对应的来源产物。
+3. 引用信息完整且格式正确。
+4. 章节编号、图表标题、公式和三线表保持一致。
+5. 导出的文件保存到 `artifacts/reports/`。
 
-## Outputs
+## 输出
 
-- final manuscript files in `thesis/`
-- exported reports in `artifacts/reports/`
-- updated `project-state.yml`
+- `thesis/` 中的最终论文文件
+- `artifacts/reports/` 中的导出报告
+- 更新后的 `project-state.yml`
