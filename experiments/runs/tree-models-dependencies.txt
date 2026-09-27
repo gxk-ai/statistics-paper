@@ -1,0 +1,20 @@
+# 三模型实验需要安装的 Python 依赖
+
+# 必需：XGBoost 模型
+xgboost
+
+# 必需：CatBoost 模型
+catboost
+
+# 建议：SHAP 解释图和特征贡献分析
+shap
+
+# 通常环境已有；如运行时报缺失再安装
+scikit-learn
+pandas
+numpy
+matplotlib
+seaborn
+
+# 安装命令
+# python -m pip install -r experiments/runs/tree-models-dependencies.txt

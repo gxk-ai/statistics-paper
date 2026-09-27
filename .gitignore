@@ -20,7 +20,7 @@ wheels/
 .installed.cfg
 *.egg
 .claude/
-
+artifacts/
 
 # Virtual environments
 .venv/
